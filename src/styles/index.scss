@@ -1,0 +1,23 @@
+@import "./typography.scss";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Roboto Flex", sans-serif;
+}
+
+html,
+body,
+#root {
+	height: 100%;
+}
+
+#root {
+	background-color: $white;
+	display: flex;
+	flex-direction: column;
+}
+
+fieldset {all:unset};
+legend{all:unset};
